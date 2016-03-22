@@ -1,7 +1,9 @@
 # React 基础
 
-本章将带你走进 React 的世界，并且介绍一些 React 中的重要概念，例如：
+本章将带你走进 React 的世界，并且介绍一些构建一个 React 应用所需要的基本概念和组成部分：
 
-- [workflow](workflow.md)
+- [Hello React](hello.md)
 - [JSX](jsx.md)
+- [Workflow](workflow.md)
+- [React中的样式](styling.md)
 - [React生命周期](lifecycle.md)

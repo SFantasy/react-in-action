@@ -1,8 +1,6 @@
 # Hello React
 
-> Talk is cheap, show me the code.
-
-废话就不多说了，从常规的 Hello World 程序开始学习 React 吧！
+相信所有的编程教程都会从Hello World的例子开始，我们也不例外，就从此开始学习吧！
 
 以下是[官方文档](http://facebook.github.io/react/docs/getting-started.html)中的第一个 React 程序:
 
@@ -28,6 +26,6 @@
 </html>
 ```
 
-以上代码通过`ReactDOM`这个对象，创建了一个`<h1>`元素，并将其插入到了id为 example 的`div`之中。
+以上代码通过`ReactDOM`这个对象的`render`方法，创建了一个`<h1>`元素，并将其插入到了id为 example 的`div`之中。
 
-这里我们使用的是一种名为[JSX]()的语法，即在 JavaScript 中使用类似 HTML 的代码用以展示程序的结构。
+这里我们使用的是一种名为[JSX](https://github.com/facebook/jsx)的语法，这在[JSX](jsx.md)一节中会详细介绍，简单来说，就是在 JavaScript 中使用类似 HTML 的代码用以展示程序的结构。
