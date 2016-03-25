@@ -3,7 +3,7 @@
 - [简介](intro/README.md)
 - [React 基础](basic/README.md)
   - [Hello React](basic/hello.md)
-  - [JSX](basic/jsx.md)
+  - [学习JSX](basic/jsx.md)
   - [生命周期](basic/lifecycle.md)
   - [React中的样式](basic/styling.md)
   - [Workflow](basic/workflow.md)
