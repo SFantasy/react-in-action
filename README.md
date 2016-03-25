@@ -9,16 +9,9 @@
 1. 通过示例方便初学者了解 React 的世界，减少学习过程中的坑坑洼洼
 2. 总结自己的一些学习心得、体会和经验
 
-## 本书包含的内容
-
-1. React 基础
-2. 编写维护 React 组件
-3. 使用 React 构建复杂的应用
-4. 使用 react-native 构建 iOS App
-
 对本书的内容有任何疑问或建议，都可以在本书的Github主页以[issues](https://github.com/SFantasy/react-in-action/issues)的方式提出，或者直接写[邮件](mailto:fantasyshao@icloud.com)给作者反馈。
 
-最后，欢迎给本书点上一个Star。
+最后，欢迎给本书点上一个[Star](https://github.com/SFantasy/react-in-action)。
 
 ---
 
