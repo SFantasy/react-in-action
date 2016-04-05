@@ -15,7 +15,7 @@ ReactDOM.render(
 
 ## 技术的退步？
 
-关于[JSX](https://github.com/facebook/jsx)，相信很多人跟我一样会觉得这是一种技术的退步。
+关于[JSX](https://github.com/facebook/jsx)，相信很多人会觉得这是一种技术的退步。
 
 因为我们以前在进行前端开发的时候，总是会把 HTML、 CSS 和 JavaScript 进行分离 -- 这也是很容易理解的一点，把用户界面中的结构、样式、逻辑分开，便于开发和维护。
 
@@ -28,3 +28,23 @@ ReactDOM.render(
   }}
 >Button</>
 ```
+
+## 为何使用 JSX
+
+JSX 并不是以模板语言的姿态出现在 React 之中的。
+
+在 React 之中，如果没有 JSX，就需要通过另外的方式来创建 Virtual DOM：
+
+```js
+React.createElement('h1', { className: 'title' }, 'Title');
+```
+
+其实这也是 React 实际工作的代码，虽然这样的代码看起来也不是很繁琐，但是想象一下用这样的方式来构建一个大型的应用呢？
+
+JSX 则是出现改变这种编码方式的解决方案：
+
+```
+<h1 className="title">Title</h1>
+```
+
+这样既可以让应用的结构变得清晰（主要指的是 DOM 结构）、语义化，又加快了编码的速度和可读性。
