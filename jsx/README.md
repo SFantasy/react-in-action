@@ -11,7 +11,7 @@ ReactDOM.render(
 );
 ```
 
-其中`render` 方法的第一个参数就是一个 JSX 语法的
+其中`render` 方法的第一个参数就是一个由 JSX 语法编写的 DOM 结构。
 
 ## 技术的退步？
 
@@ -19,19 +19,12 @@ ReactDOM.render(
 
 因为我们以前在进行前端开发的时候，总是会把 HTML、 CSS 和 JavaScript 进行分离 -- 这也是很容易理解的一点，把用户界面中的结构、样式、逻辑分开，便于开发和维护。
 
-但是 JSX 似乎历史的道路上往回走了，以下是 JSX 官方标准中的一个示例：
+但是 JSX 似乎在历史的道路上往回走了，不仅给应用带来了一堆 XML 一样的标签，而且将事件与 DOM 结构混合在了一起，例如以下 JSX：
 
 ```
-// Using JSX to express UI components.
-var dropdown =
-  <Dropdown>
-    A dropdown list
-    <Menu>
-      <MenuItem>Do Something</MenuItem>
-      <MenuItem>Do Something Fun!</MenuItem>
-      <MenuItem>Do Something Else</MenuItem>
-    </Menu>
-  </Dropdown>;
-
-render(dropdown);
+<a
+  onClick={() => {
+    console.log('Click!');
+  }}
+>Button</>
 ```
