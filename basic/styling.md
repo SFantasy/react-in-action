@@ -55,4 +55,4 @@ module.exports = React.createClass({
 });
 ```
 
-> 机智的你一定注意到了上面代码中的`className`与`backgroundColor`，这和我们平时书写的`class`与`background-color`不同；你可以带着这个问题继续阅读，当然也可以直接去参考[JSX](jsx/README.md)章节中的内容。
+> 机智的你一定注意到了上面代码中的`className`与`backgroundColor`，这和我们平时书写的`class`与`background-color`不同；你可以带着这个问题继续阅读，当然也可以直接去参考[JSX](../jsx/README.md)章节中的内容。

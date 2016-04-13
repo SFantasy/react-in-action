@@ -34,4 +34,4 @@
 
 然后，以上代码通过`ReactDOM`这个对象的`render`方法，创建了一个`<h1>`元素，并将其插入到了id为 example 的`div`之中。
 
-这里我们使用的是一种名为[JSX](https://github.com/facebook/jsx)的语法，这在下一节[JSX](./jsx.md) 中会比较详细的讲解。简单来说，JSX 就是在 JavaScript 中使用类似 XML 的代码用以展示DOM 的结构。
+这里我们使用的是一种名为[JSX](https://github.com/facebook/jsx)的语法，这在下一节[JSX](../jsx/README.md) 中会比较详细的讲解。简单来说，JSX 就是在 JavaScript 中使用类似 XML 的代码用以展示DOM 的结构。
