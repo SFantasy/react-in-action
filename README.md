@@ -2,7 +2,7 @@
 
 这是一本关于 React 的小书，主要内容为 React 方面的编程实践。
 
-所有的示例代码都可以在 [react-examples](https://github.com/SFantasy/react-examples) 中找到，如果你更喜欢通过阅读代码的方式来学习，可以直接参考该 Repo 而不必阅读此书。
+欢迎开始阅读：[简介](./intro/README.md)。
 
 ## 为什么写作本书？
 
