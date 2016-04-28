@@ -11,7 +11,9 @@
 
 ## Props
 
-`props` 即属性 (property)
+`props` 即属性 (property)，是在组件初始化之后就从父级组件带入的到组件内部。
+
+我们无法在使用的过程中对组件的属性进行修改。
 
 ```js
 // 定义一个 React 组件
@@ -31,6 +33,8 @@ ReactDOM.render(
 在以上代码中，我们定义了一个组件 A，然后在 `render` 方法中渲染了一个内容为 `this.props.text` 的变量。
 
 ## State
+
+`state`则是实际上组件中使用的「数据」：
 
 ```js
 var B = React.createClass({
@@ -59,3 +63,13 @@ ReactDOM.render(
   document.getElementById('app')
 )
 ```
+
+在上述例子中，可以看到我们给一个`<button>`绑定了`click`事件：
+
+```js
+this.setState({
+  value: ++this.state.value
+});
+```
+
+调用 `this.setState()` 方法可以修改组件的`state`，并重新调用`render`方法 -- 重新渲染组件。
