@@ -2,7 +2,7 @@
 
 [JSX](https://github.com/facebook/jsx) 在 React 中是很重要的一个组成部分，用于展示 DOM 结构与应用中的数据展示。
 
-在前一节中，我们已经见识过 JSX 了:
+在基础部分中，我们已经见识过 JSX 了:
 
 ```
 ReactDOM.render(
