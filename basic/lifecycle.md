@@ -19,3 +19,5 @@ React 组件在实例化之后就开始了它的生命周期过程。
 对于每个方法的详细说明可以参考官方文档：http://facebook.github.io/react/docs/component-specs.html
 
 值得注意的是，由于 React 组件的生命周期方法实际上是一个类似「状态机」的存在，因此在`render`方法中不能调用`this.setState({})`方法 -- 否则就会无限调用`render`方法让程序陷入「崩溃」的状态。
+
+React 组件在触发了 `this.setState({})` 方法之后，会依次调用 `shouldComponentUpdate`, `componentWillUpdate`, `render` 和 `componentDidUpdate` 方法，因此在使用组件的过程中我们只需要关注这几个方法的使用。
