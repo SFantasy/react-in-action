@@ -11,7 +11,7 @@
 
 对本书的内容有任何疑问或建议，都可以在本书的Github主页以[issues](https://github.com/SFantasy/react-in-action/issues)的方式提出，或者直接写[邮件](mailto:fantasyshao@icloud.com)给作者反馈。
 
-最后，欢迎给本书点上一个[Star](https://github.com/SFantasy/react-in-action)。
+最后，欢迎给本书点上一个[Star](https://github.com/SFantasy/react-in-action) 或通过支付宝[打赏作者](http://blog.fantasy.codes/donate/)。
 
 ---
 
