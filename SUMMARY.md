@@ -20,3 +20,4 @@
   - [React 性能优化](appendix/optimize.md)
   - [Webpack 性能优化](appendix/webpack-optimize.md)
   - [Virtual DOM 探秘](appendix/v-dom.md)
+  - [更新说明](appendix/update.md)
